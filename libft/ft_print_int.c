@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_int.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cvan-oot <cvan-oot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:55:46 by cvan-oot          #+#    #+#             */
-/*   Updated: 2023/01/31 15:22:16 by cvan-oot         ###   ########.fr       */
+/*   Updated: 2023/08/21 13:09:33 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "libft.h"
 
 int	print_int(char c)
 {

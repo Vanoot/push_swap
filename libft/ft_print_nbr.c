@@ -3,25 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_nbr.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cvan-oot <cvan-oot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 13:34:55 by cvan-oot          #+#    #+#             */
-/*   Updated: 2023/01/31 14:55:12 by cvan-oot         ###   ########.fr       */
+/*   Updated: 2023/08/21 13:10:07 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "libft.h"
 
 static int	getsize(long nb)
 {
-	int	neg;
 	int	i;
 
-	neg = 0;
 	i = 0;
 	if (nb < 0)
 	{
-		neg = 1;
 		i++;
 		nb = -nb;
 	}

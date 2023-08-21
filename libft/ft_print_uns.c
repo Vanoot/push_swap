@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_uns.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cvan-oot <cvan-oot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 13:50:44 by cvan-oot          #+#    #+#             */
-/*   Updated: 2023/01/31 14:55:00 by cvan-oot         ###   ########.fr       */
+/*   Updated: 2023/08/21 13:09:42 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "libft.h"
 
 static unsigned int	getsize(long nb)
 {

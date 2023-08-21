@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_void.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cvan-oot <cvan-oot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 14:31:32 by cvan-oot          #+#    #+#             */
-/*   Updated: 2023/01/31 14:50:17 by cvan-oot         ###   ########.fr       */
+/*   Updated: 2023/08/21 13:09:45 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "libft.h"
 
 void	putnbr(unsigned long long nbr, char *base)
 {

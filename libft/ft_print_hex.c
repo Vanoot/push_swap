@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_hex.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cvan-oot <cvan-oot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 15:44:05 by cvan-oot          #+#    #+#             */
-/*   Updated: 2023/01/31 14:36:36 by cvan-oot         ###   ########.fr       */
+/*   Updated: 2023/08/21 13:09:20 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "libft.h"
 
 int	hex_len(unsigned long x)
 {

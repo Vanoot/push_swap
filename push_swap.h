@@ -6,14 +6,14 @@
 /*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 14:09:36 by vanot             #+#    #+#             */
-/*   Updated: 2023/05/12 14:48:34 by vanot            ###   ########.fr       */
+/*   Updated: 2023/08/21 13:10:19 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-#include "./Libft/libft.h"
+#include "./libft/libft.h"
 
 typedef struct s_stack
 {
