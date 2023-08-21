@@ -6,7 +6,7 @@
 #    By: vanot <vanot@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/10 13:53:30 by vanot             #+#    #+#              #
-#    Updated: 2023/05/12 14:37:09 by vanot            ###   ########.fr        #
+#    Updated: 2023/08/21 13:05:24 by vanot            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ OBJS = ${SRCS:.c=.o}
 
 NAME = push_swap
 
-LIB = ./Libft/libft.a
+LIB = ./libft/libft.a
 CC	= cc
 RM	= rm -f
 
@@ -31,16 +31,16 @@ ${NAME}:	${OBJS}
 		${CC} ${OBJS} ${LIB} -o ${NAME}
 
 ${LIB}:
-		make -C ./Libft
+		make -C ./libft
 
 clean:
 		${RM} ${OBJS} ${BONUS}
-		make clean -C ./Libft
+		make clean -C ./libft
 
 
 fclean:		clean
 		${RM} ${NAME}
-		make fclean -C ./Libft
+		make fclean -C ./libft
 
 
 re:		fclean all
