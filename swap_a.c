@@ -1,25 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   swap_a.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vanot <vanot@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/10 14:09:36 by vanot             #+#    #+#             */
-/*   Updated: 2023/05/12 14:48:34 by vanot            ###   ########.fr       */
+/*   Created: 2023/05/12 13:14:48 by vanot             #+#    #+#             */
+/*   Updated: 2023/05/12 14:20:49 by vanot            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_H
-# define PUSH_SWAP_H
-
-#include "./Libft/libft.h"
-
-typedef struct s_stack
-{
-	int	    content;
-	struct  s_stack	*next;
-    struct  s_stack *previous;
-}	t_stack;
-
-#endif

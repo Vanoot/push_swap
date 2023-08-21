@@ -1,18 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: vanot <vanot@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/10 13:53:30 by vanot             #+#    #+#              #
-#    Updated: 2023/05/10 14:38:28 by vanot            ###   ########.fr        #
+#    Updated: 2023/05/12 14:37:09 by vanot            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = 
+SRCS = init.c
 
-OBJS = 
+OBJS = ${SRCS:.c=.o}
 
 NAME = push_swap
 
@@ -25,19 +25,23 @@ CFLAGS	= -Wall -Werror -Wextra
 .c.o :
 		${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
-${NAME}:	${LIB} ${OBJS}
-		${CC} ${LIB} ${OBJS} -o ${NAME}
+all:		${LIB} ${NAME} 
+
+${NAME}:	${OBJS} 
+		${CC} ${OBJS} ${LIB} -o ${NAME}
 
 ${LIB}:
 		make -C ./Libft
 
-all:		${NAME} bonus
-
 clean:
 		${RM} ${OBJS} ${BONUS}
+		make clean -C ./Libft
+
 
 fclean:		clean
 		${RM} ${NAME}
+		make fclean -C ./Libft
+
 
 re:		fclean all
 
